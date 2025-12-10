@@ -22,6 +22,11 @@ builtins.mapAttrs
     "${name}-profiles-extensions-assertions" = ./profiles/extensions/assertions.nix;
     "${name}-profiles-extensions-exhaustive" = ./profiles/extensions/exhaustive.nix;
     "${name}-profiles-extensions-exact" = ./profiles/extensions/exact.nix;
+    "${name}-profiles-handlers" = ./profiles/handlers;
+    "${name}-profiles-handlers-both-path-and-uri" = ./profiles/handlers/both-path-and-uri.nix;
+    "${name}-profiles-handlers-without-action" = ./profiles/handlers/handlers-without-action.nix;
+    "${name}-profiles-handlers-empty-handler" = ./profiles/handlers/empty-handler.nix;
+    "${name}-profiles-handlers-multiple-handlers" = ./profiles/handlers/multiple-handlers.nix;
     "${name}-profiles-overwrite" = ./profiles/overwrite;
     "${name}-profiles-search" = ./profiles/search;
     "${name}-profiles-settings" = ./profiles/settings;
